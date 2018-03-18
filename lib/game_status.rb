@@ -25,3 +25,6 @@ WIN_COMBINATIONS = [
       end
     end
   end
+  
+  def full 
+  end 
