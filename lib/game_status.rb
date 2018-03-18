@@ -29,5 +29,7 @@ WIN_COMBINATIONS = [
   def full?(board)
     if WIN_COMBINATIONS != won?(board)
       return true
+    else
+      false
     end  
   end 
