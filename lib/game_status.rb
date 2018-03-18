@@ -29,7 +29,7 @@ WIN_COMBINATIONS = [
   def full?(board)
     if WIN_COMBINATIONS != won?(board)
       return true
-    elsif board.include 
+    elsif board.include? ("" || " ") 
       false
     end  
   end 
