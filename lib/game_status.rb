@@ -42,7 +42,10 @@ WIN_COMBINATIONS = [
     end
   end
   
-  
+  def over?(board)
+    if draw?(board) == true
+      return true
+  end
   
   
   
