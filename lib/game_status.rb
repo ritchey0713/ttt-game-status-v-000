@@ -16,5 +16,5 @@ WIN_COMBINATIONS = [
   
   def won(board)
      WIN_COMBINATIONS.select do |combo|
-       if 
+       if (board[combo0])
   
