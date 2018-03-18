@@ -33,3 +33,5 @@ WIN_COMBINATIONS = [
       true
     end  
   end 
+  
+  def draw?
