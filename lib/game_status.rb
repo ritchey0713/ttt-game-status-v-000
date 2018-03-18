@@ -16,9 +16,9 @@ WIN_COMBINATIONS = [
   
   def won?(board)
      WIN_COMBINATIONS.select do |combo|
-       if (board[combo[0]]) =="X" && (board[combo[1]]) == "X" && (board[combo[2]]) == "X"
+       if (board[combo[]]) =="X" && (board[combo[]]) == "X" && (board[combo[]]) == "X"
          return combo
-       elsif (board[combo[0]]) =="O" && (board[combo[1]]) == "O" && (board[combo[2]]) == "O"
+       elsif (board[combo[]]) =="O" && (board[combo[]]) == "O" && (board[combo[]]) == "O"
         return combo
        end
         return false
