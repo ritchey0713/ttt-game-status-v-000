@@ -26,5 +26,8 @@ WIN_COMBINATIONS = [
     end
   end
   
-  def full 
+  def full?(board)
+    if WIN_COMBINATIONS != won?(board)
+      return true
+    end  
   end 
