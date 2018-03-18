@@ -51,7 +51,7 @@ end
   def winner(board)
     if !(won(board))
       return nil
-    elsif board[won?(board).detect do ]      
+    elsif board[won?(board).detect ]      
     
   end 
 end
