@@ -48,7 +48,7 @@ WIN_COMBINATIONS = [
   end
 end  
   
-  
+  def winn
   
   
   
