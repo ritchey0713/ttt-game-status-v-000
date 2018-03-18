@@ -50,7 +50,9 @@ end
   
   def winner(board)
   if board[won?(board).detect {|combo| board[combo] == "X" || board[combo] == "O"}]      
-    
+  
+  elsif
+    nil
   end 
 end
   
