@@ -35,3 +35,5 @@ WIN_COMBINATIONS = [
   end 
   
   def draw?
+    if full?
+  end
