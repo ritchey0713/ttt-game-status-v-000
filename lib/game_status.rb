@@ -49,7 +49,8 @@ WIN_COMBINATIONS = [
 end  
   
   def winner(board)
-  if board[won?(board).detect {|combo| board[combo] == "X" || board[combo] == "O"}]      
+  if won?(board) != nil 
+    board[won?(board).detect {|combo| board[combo] == "X" || board[combo] == "O"}]      
   
   elsif
     nil
