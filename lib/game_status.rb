@@ -16,11 +16,5 @@ WIN_COMBINATIONS = [
   ]
   
   def won(board)
-    if WIN_COMBINATIONS.select do |combo|
-      combo=won(board)
-      return combo
-    else 
-     false
-   end
-end  
-end
+     WIN_COMBINATIONS.select do |combo|
+  
