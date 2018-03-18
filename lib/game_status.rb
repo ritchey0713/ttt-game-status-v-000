@@ -50,7 +50,7 @@ end
   
   def winner(board)
      WIN_COMBINATIONS.detect do |combo|
-      if combo == "X"
+      if won?(board) == "X"
         return "X"
       else
         return nil
