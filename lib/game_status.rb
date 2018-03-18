@@ -46,7 +46,7 @@ WIN_COMBINATIONS = [
     if draw?(board) == true
       return true
   end
-  
+end  
   
   
   
